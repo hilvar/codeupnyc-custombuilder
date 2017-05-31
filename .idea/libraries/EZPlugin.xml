@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EZPlugin">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/minecraft-server/lib/EZPlugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

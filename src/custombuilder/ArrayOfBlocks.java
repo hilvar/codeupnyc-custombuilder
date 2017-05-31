@@ -8,6 +8,8 @@
 ***/
 package custombuilder;
 
+import custombuilder.buildings.Building;
+import custombuilder.levels.Level;
 import net.canarymod.commandsys.*;
 import net.canarymod.chat.MessageReceiver;
 import net.canarymod.api.entity.living.humanoid.Player;

@@ -1,5 +1,7 @@
-package custombuilder;
+package custombuilder.levels;
 
+import custombuilder.walls.EndWall;
+import custombuilder.walls.MiddleWall;
 import net.canarymod.api.world.blocks.BlockType;
 
 import java.util.ArrayList;
@@ -13,7 +15,7 @@ public class SevenPlain extends Level{
     private EndWall wallOne = new EndWall();
     private MiddleWall wallTwo = new MiddleWall();
 
-    SevenPlain() {
+    public SevenPlain() {
         this.makeLevel();
     }
 

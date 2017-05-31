@@ -1,5 +1,8 @@
-package custombuilder;
+package custombuilder.levels;
 
+import custombuilder.walls.EndWall;
+import custombuilder.walls.MiddleWall;
+import custombuilder.walls.MiddleWindowWall;
 import net.canarymod.api.world.blocks.BlockType;
 
 import java.util.ArrayList;
@@ -14,7 +17,7 @@ public class FrontWindowLevel extends Level{
     private MiddleWall wallTwo = new MiddleWall();
     private MiddleWindowWall wallThree = new MiddleWindowWall();
 
-    FrontWindowLevel() {
+    public FrontWindowLevel() {
         this.makeLevel();
     }
 

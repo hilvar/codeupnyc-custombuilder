@@ -1,4 +1,6 @@
-package custombuilder;
+package custombuilder.buildings;
+
+import custombuilder.levels.*;
 
 import java.util.ArrayList;
 
@@ -9,11 +11,11 @@ public class Building {
 
     private ArrayList<Level> levels = new ArrayList<Level>();
 
-    Building() {
+    public Building() {
         this.makeBuilding();
     }
 
-    Building(String type) {
+    public Building(String type) {
         switch (type) {
             case "mansion":
                 this.makeMansion();
@@ -46,6 +48,6 @@ public class Building {
         this.levels.add(new WindowLevel());
         this.levels.add(new WindowLevel());
         this.levels.add(new FrontWindowLevel());
-        this.levels.add(new SevenPlain());
+        this.levels.add(new NarrowLevel());
     }
 }

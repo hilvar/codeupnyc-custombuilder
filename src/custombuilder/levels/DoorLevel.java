@@ -1,5 +1,8 @@
-package custombuilder;
+package custombuilder.levels;
 
+import custombuilder.walls.DoorWall;
+import custombuilder.walls.EndWall;
+import custombuilder.walls.MiddleWall;
 import net.canarymod.api.world.blocks.BlockType;
 
 import java.util.ArrayList;
@@ -14,7 +17,7 @@ public class DoorLevel extends Level {
     private MiddleWall wallTwo = new MiddleWall();
     private DoorWall doorWall = new DoorWall();
 
-    DoorLevel() {
+    public DoorLevel() {
         this.makeLevel();
     }
 

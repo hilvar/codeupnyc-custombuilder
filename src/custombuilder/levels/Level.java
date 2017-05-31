@@ -1,4 +1,4 @@
-package custombuilder;
+package custombuilder.levels;
 
 import net.canarymod.api.world.blocks.BlockType;
 
